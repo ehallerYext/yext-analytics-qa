@@ -32,7 +32,7 @@ export const config: TemplateConfig = {
       "uid",
       "meta",
       "name",
-      "address",
+      "address"
       "mainPhone",
       "description",
       "hours",
@@ -45,7 +45,7 @@ export const config: TemplateConfig = {
       "yextDisplayCoordinate",
     ],
     localization: {
-      locales: ['en', 'fr'],
+      locales: ['fr'],
     },
   },
 };
