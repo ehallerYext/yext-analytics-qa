@@ -17,7 +17,7 @@ import {
     const neighborhood = document.neighborhood;
     const address = document.address;
     const mainPhone = document.mainPhone;
-    const ctas = document.c_heroCTAs;
+    // const ctas = document.c_heroCTAs;
   
     return (
         <>
@@ -59,7 +59,7 @@ import {
                             </div>
                             <AnalyticsScopeProvider name="ctas">
                                 <div id="CTAs" className="flex flex-col text-center space-y-3 py-4 w-full sm:max-w-fit">
-                                    {ctas.map(cta => (
+                                    {/* {ctas.map(cta => (
                                         <Link 
                                             className="primary-cta"
                                             key={cta.label}
@@ -71,7 +71,7 @@ import {
                                         >
                                             {cta.label}
                                         </Link>
-                                    ))}
+                                    ))} */}
                                 </div>
                             </AnalyticsScopeProvider>
                             {description && 
