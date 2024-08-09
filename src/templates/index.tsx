@@ -32,7 +32,7 @@ export const config: TemplateConfig = {
       "uid",
       "meta",
       "name",
-      "address"
+      "address",
       "mainPhone",
       "description",
       "hours",
